@@ -150,4 +150,48 @@ li {
     color: #101827;
 }
 
+/* Mobile Responsive Design */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 30px 12px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .profile-pic {
+        width: 140px;
+        height: 140px;
+    }
+
+    .about {
+        padding: 18px;
+        margin: 25px auto;
+    }
+
+    .skills {
+        padding: 10px;
+    }
+
+    .skill-container {
+        gap: 12px;
+    }
+
+    .skill-card {
+        width: 140px;
+        padding: 18px 10px;
+    }
+
+    .contact {
+        padding: 22px 15px;
+    }
+
+    .contact-btn {
+        padding: 12px 18px;
+    }
+}
+
 
