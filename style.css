@@ -223,6 +223,34 @@ li {
 .nav-links a:hover {
     color: #38bdf8;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    padding: 18px 25px;
+    background: #1e293b;
+    border-radius: 12px;
+}
 
+.logo {
+    color: #38bdf8;
+}
+
+.nav-links {
+    display: flex;
+    gap: 22px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
 
 
