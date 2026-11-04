@@ -55,3 +55,23 @@ li {
     margin: 20px auto;
     display: block;
 }
+
+.about {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #1e293b;
+    border-radius: 15px;
+    border: 1px solid #334155;
+}
+
+.about h2 {
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
